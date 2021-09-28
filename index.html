@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project One</title>
+    <meta name="description" content="This is my first meta tag">
+    <meta name="keywords" content="html5, rp, aikins">
+    <meta name="author" content="Richard Aikins">
+    <meta name="viewport" content="width=device-height, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header id= "main-header">
+      <h1>First HTML Project</h1>
+
+    </header>
+      <h3>Yea, I know what you're thinking</h3>
+    <main>
+      <input id ="searchI"  type="text" name="search" value="search" placeholder="Search"/>
+     <button id="searchB" type="submit"> <img src="./ssss.png"></button>
+      <section id="top-stories">
+        <h2 id="h2h">Top Stories</h2>
+        <article>
+          <div class="image" style="background:url(./imag/./Arrow-poster.jpg)" ></div>
+          <h3>Oliver Queen is the Green Arrow</h3>
+          <p>the big brown fox jumped over the lazy dog. he is the biggest kind of jerk i have ever seen...<a href="#">Read more...</a></p>
+        </article>
+        <article>
+          <div class="image" style="background:url(./imag/love.jpg)" ></div>
+          <h3>R2Bees released a new song</h3>
+          <p>the big banger is a boomer featruring Efya, the vocal goddess...<a href="index1.html">Read more...</a></p>
+        </article>
+        <article>
+          <div class="image" style="background:url(./imag/The-Flash-poster.jpg)" ></div>
+          <h3>Grant Gustin is The Flash</h3>
+          <p>the big brown fox jumped over the lazy dog. he is the biggest kind of jerk i have ever seen...<a href="#">Read more...</a></p>
+        </article>
+        <article>
+          <div class="image" style="background:url(./imag/love.jpg)" ></div>
+          <h3>R2Bees released a new song</h3>
+          <p>the big banger is a boomer featruring Efya, the vocal goddess...<a href="index1.html">Read more...</a></p>
+        </article>
+        <div id="my-text">
+          <p>You can share this PDF with anyone you feel could benefit from it, downloaded the latest version from: javafx
+It is an unofficial and free javafx ebook created for educational purposes. All the content is extracted from Stack Overflow Documentation,
+ which is written by many hardworking individuals at Stack Overflow. It is neither affiliated with Stack Overflow nor official javafx.
+The content is released under Creative Commons BY-SA, and the list of contributors to each chapter are provided in the credits section at the end of this book.
+ Images may be copyright of their respective owners unless otherwise specified.
+  All trademarks and registered trademarks are the property of their respective company owners.
+Use the content presented in this book at your own risk; it is not guaranteed to be correct nor accurate,
+please send your feedback and corrections to info@zzzprojects.com
+</p>
+        </div>
+      </section>
+      <br/>
+          <section id="contact-form">
+            <h2>Place Order</h2>
+            <form class="" action="http://localhost/place.php" method="POST">
+              <h4>Delivery</h4>
+              <input type="radio" name="delivery" value="delivery"/>Delivery <br/>
+              <input type="radio" name="delivery" value="pickup"/>Pickup <br/>
+
+              <h4>Address</h4>
+              <input type="text" name="address1" placeholder="Address line 1"class="ad"/> <br/>
+                <input type="text" name="address2" placeholder="Address line 2"class="ad"/> <br/>
+              <input type="text" name="city" placeholder="City" class="ct"/>
+               <input type="text" name="state" placeholder="State"class="st"/> <br/>
+               <input type="text" name="zip" placeholder="Zip Code" class="zp"/> <br/>
+                <br/><br/>
+                <h4>Size</h4>
+                <select name="size" id="size">
+                  <option value="12">12" - GHS 20.00</option>
+                  <option value="16">16" - GHS 28.00</option>
+                  <option value="20">20" - GHS 36.00</option>
+                </select>
+                <h4>Ingredients</h4>
+               <input class="ingredient" type="checkbox" value="pepperoni" name="ingredient[]" /> Pepperoni <br/>
+               <input class="ingredient" type="checkbox" value="salami" name="ingredient[]" />Salami<br/>
+               <input class="ingredient" type="checkbox" value="bacon" name="ingredient[]"/> Bacon <br/>
+               <input class="ingredient" type="checkbox" value="sausage" name="ingredient[]"/>Sausage<br/>
+               <button type="submit" name="buttonP">Place Order</button>
+            </form>
+          </section>
+
+
+        <footer>
+          <center> &copy Copyright 2020 <br/>
+            <a href="#">Terms of Service</a>
+         </center>
+        </footer>
+    </main>
+      <script type="text/javascript" src="./js/main.js" ></script>
+  </body>
+</html>
